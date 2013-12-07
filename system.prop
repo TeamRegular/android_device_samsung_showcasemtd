@@ -1,8 +1,10 @@
 #
-# system.prop for smdkc110
+# system.prop for showcasemtd
 #
 
 rild.libpath=/system/lib/libsec-ril40.so
 rild.libargs=-d /dev/ttyS0
+ro.cdma.home.operator.numeric=311230
+ro.cdma.home.operator.alpha=CSpire
+net.cdma.pppd.user=user CSpire Wireless
 ro.sf.lcd_density=240
-
